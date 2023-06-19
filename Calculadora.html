@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSSdanilo/estiloDan.css">
+    <script src="JSdanilo/script.js"></script>
+    <link rel= "shortcut icon" href="IMGdanilo/ford-logo-1.png" type="image/x icon">  
+
+
+    <title>Inicio</title>
+</head>
+<body>
+  <header>
+    <ul class="navegacao">
+      <li class="estilo_li"><a href="home.html"><p>INICIO</p></a></li>
+      <li class="estilo_li2"><a href="carros.html"><p>CARROS POPULARES</p> </a></li>
+      <li class="estilo_li3"><a href="fordSport.html"><p>CARROS ESPORTIVOS</p></a></li>
+      <a><img src="IMGdanilo/ford-logo-1.png" class="estilologo" alt=""></a>
+      <li class="estilo_li4"><a href="Ofertas.html"><p>OFERTAS</p></a></li>
+      <li class="estilo_li5"><a href="sobrenos.html" ><p>SOBRE NÓS</p></a></li>
+      <li class="estilo_li6"><a href="carros.html" ><p>COMPRAR</p></a></li>
+      <img class="pesquisa" src="IMGdanilo/localizacao.png" alt="">
+      <img class="pesquisa" src="IMGdanilo/lupa.png">
+    </ul>
+    
+</header>
+
+  <section class="fundocalc">
+    <h1 class="titulocalc">Faça um orçamento</h1>
+
+    <h1 class="titulocalc6" id="carrotitulo"> </h1>
+    
+    <h1 class="titulocalc4" id="valor"> </h1>
+
+    <h1 class="titulocalc3" id="carrobruto"> </h1>
+
+    <input type="text" id="CARROS2" placeholder="Nome do carro" name="CARROS" list="CARROS" autocomplete="off" class="caixa" />
+    <div class="tudo">
+    <datalist id="CARROS">
+      <option id="1">MUSTANG MACH 1</option>
+      <option id="2">MUSTANG MACH-E</option>
+      <option id="3">FORD F150</option>
+      <option id="4">FORD MAVERICK</option>
+      <option id="5">FORD EDGE</option>
+      <option id="6">FORD ECOSPORT</option>
+      <option id="7">FORD BRONCO</option>
+      <option id="8">FORD TERRITORY</option>
+      <option id="9">TRANSIT MINIBUS</option>
+      <option id="10">TRANSIT FURGÃO</option>
+    </datalist>
+  </div>
+
+    
+    <input type="number" id="entrada" class="caixa2" placeholder="Valor de entrada"/>
+
+    <input type="number" id="parcela" class="caixa3" placeholder="Quantas parcelas"/>
+
+    
+    <button class="botao" onclick="valorcarro()"> Confirmar</button>
+
+    
+    <h1 class="titulocalc2" id="total"> </h1>
+
+    <h1 class="titulocalc5" id="valorcarro"> </h1>
+  </section>
+
+
+
+  
+  <footer>
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading footer-1">
+                <h2>Sobre nós</h2>
+                <a href="#">Carreiras</a>
+                <a href="https://corporate.ford.com/">Ford Global</a>
+                <a href="https://media.ford.com/content/fordmedia/fsa/br/pt.html">Noticias</a>
+                
+            </div>
+            <div class="footer-heading footer-2">
+                <h2>Contatos</h2>
+                <a href="#">Serviços</a>
+                <a href="#">Suporte</a>
+                <a href="#">Contato</a>
+                
+                
+            </div>
+            <div class="footer-heading footer-3">
+                <h2>Nossas redes</h2>
+                <a href="https://www.instagram.com/fordbrasil/">Instagram</a>
+                <a href="https://pt-br.facebook.com/FordBrasil/">facebook</a>
+                <a href="https://www.youtube.com/c/ford">Youtube</a>
+                
+            </div>
+            <div class="footer-email-form">
+                <h2>Mande-nos um Email</h2>
+                <input type="email" placeholder="Digite seu email" id="footer-email">
+                <input type="submit" value="Enviar" id="footer-email-btn">
+            </div>
+        </div>
+    </div>
+ </footer>
+</body>
+</html>

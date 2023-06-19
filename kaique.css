@@ -1,0 +1,667 @@
+body{
+    margin: 0 auto;
+    
+}
+
+header{
+  
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 89.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+  z-index: 10;
+  background:#0d1220;
+ 
+}
+
+
+header .estilologo{
+  width: 100px;
+  height: 50px;
+  
+}
+
+header .navegacao{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 0;  
+}
+
+header .navegacao li{
+  list-style: none;
+  margin: 0 10px;
+}
+
+header .navegacao li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 450;
+  letter-spacing: 1px;
+}
+
+header .search{
+  position: relative;
+  width: 300px;
+  height: 40px;
+}
+header.search input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.footer-search{
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    position: absolute;
+    margin-left: 15F00px;
+    margin-top: 15px;
+
+}
+
+.estiloh1{
+  text-decoration: none;
+}
+
+.estilo_li {
+  position: relative;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.estilo_li::before {
+    content: '';
+    position: absolute;
+    width: 65px;
+    height: 1px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+    
+  }
+
+  .estilo_li:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+ 
+}
+
+
+.estilo_li2 {
+  position: relative;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.estilo_li2::before {
+    content: '';
+    position: absolute;
+    width: 218px;
+    height: 1px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+
+  .estilo_li2:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.estilo_li3 {
+  position: relative;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.estilo_li3::before {
+    content: '';
+    position: absolute;
+    width: 220px;
+    height: 1px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+
+  .estilo_li3:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.estilo_li4 {
+  position: relative;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.estilo_li4::before {
+    content: '';
+    position: absolute;
+    width: 95px;
+    height: 1px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+   
+  }
+
+  .estilo_li4:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+  margin-left: 50px;
+}
+
+.estilo_li5 {
+  position: relative;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.estilo_li5::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+
+  .estilo_li5:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.estilo_li6 {
+  position: relative;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.estilo_li6::before {
+    content: '';
+    position: absolute;
+    width: 105px;
+    height: 1px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+
+  .estilo_li6:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+
+
+.pesquisa{
+  margin-left: 80px;
+  height: 40px;
+  margin-top: 10px;
+}
+ 
+.estiloh1{
+    text-decoration: none;
+}
+
+.estilo_li {
+    position: relative;
+  }
+  
+  .estilo_li::before {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 1px;
+      border-radius: 4px;
+      background-color: #ffffff;
+      bottom: 0;
+      left: 0;
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform .3s ease-in-out;
+    }
+  
+    .estilo_li:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+
+
+.section1{
+    background: #FFFFFF url("imgskaique/2020-ford-gt-heritage-editionedit.jpg") no-repeat;
+    width: 79.%;
+    height: 50vw; 
+    padding-top: 10px;
+    
+}
+
+.div-section1{
+    color: white;
+    margin-top: 330px;
+    margin-left: 100px;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 10px;
+}
+.div2-section1{
+    color: white;
+    margin-left: 100px;
+    font-size: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section2{
+    width: 79.%;
+    
+    
+}
+
+.div1-section2 {
+    margin-left: 100px;
+    width: 700px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+    
+
+
+}
+.parag-text-section2{
+    font-style: italic;
+}
+
+.img-section2{
+        float: left;
+        border: transparent thin solid;
+        padding: 8px;
+        width: 900px;
+    }
+
+.section3{
+    width: 79.%;
+    
+    
+}
+
+.div1-section3 img{
+    width: 79.%;;
+    
+    
+}
+
+.div1-section4{
+    width: 700px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 130px;
+    
+}
+
+
+.text-mustang{
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.parag-mustang{
+    font-size: 20px;
+    width: 600px;
+    margin-left: 40px;
+}
+
+.mp4{
+    margin-top: 30px;
+    margin-left: -95px;
+}
+
+
+
+.tudo-section4{
+    margin-left: 290px;
+    display: inline-block;
+}
+
+.preco-mustang{
+    display: inline-block;
+    margin-top: -700px;
+    position: absolute;
+    margin-left: 1100px;
+}
+
+.botaocomprar1{
+    display: inline-block;
+    margin-top: -200px;
+    margin-left: 1285px;
+    position: absolute;
+    background: #297fe0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 16px;   
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+
+ .botaocomprar1:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+
+  .h1-section4 {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 35px;
+  }
+  
+.grade{
+   margin-left: 255px;
+   margin-top: 10px;
+   width: 1400px;
+   
+}
+
+.desliza{
+    animation-duration: 1s;
+    animation-name: slidein2;
+    font-size: 40px;
+    margin-top: 400px;
+    margin-left: 50px;
+    position: absolute;
+  }
+  
+  .desliza2{
+    animation-duration: 1s;
+    animation-name: slidein2;
+    font-size: 40px;
+    margin-top: 400px;
+    margin-left: 50px;
+    position: absolute;
+  }
+  
+  .divperso{
+    align-items: center;
+    margin-top: -950px;
+    margin-left: 500px;
+    position: absolute;
+  }
+  
+  .titulobarra{
+    font-size: 25px;
+    margin-top: 570px;
+    margin-left: 240px;
+    height: 78px;
+    width: 150px;
+    border-width: 5px;
+    position: absolute;
+    background-color: whitesmoke;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: rgb(0, 0, 0);
+  }
+  
+  .titulobarra2{
+    font-size: 25px;
+    margin-top: 570px;
+    margin-left: 390px;
+    height: 78px; 
+    width: 150px;
+    border-width: 5px;
+    position: absolute;
+    background-color: whitesmoke;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: rgb(0, 0, 0);
+  }
+  
+  .titulobarra3{
+    font-size: 25px;
+    margin-top: 570px;
+    margin-left: 540px;
+    height: 78px;
+    width: 150px;
+    border-width: 5px;
+    position: absolute;
+    background-color: whitesmoke;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: rgb(0, 0, 0);
+  }
+  
+  .Atual{
+    border-color:rgb(0, 183, 255) ;
+    font-size: 25px;
+    margin-top: 570px;
+    margin-left: 240px;
+    border-width: 5px;
+    height: 78px;
+    width: 150px;
+    position: absolute;
+    color:rgb(0, 183, 255) ; ;
+    background-color: whitesmoke;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+  
+  .Atual2{
+    border-color:rgb(0, 183, 255) ;
+    font-size: 25px;
+    margin-top: 570px;
+    margin-left: 390px;
+    border-width: 5px;
+    height: 78px;
+    width: 150px;
+    position: absolute;
+    color:rgb(0, 183, 255) ; ;
+    background-color: whitesmoke;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+  
+  .Atual3{
+    border-color:rgb(0, 183, 255) ;
+    font-size: 25px;
+    margin-top: 570px;
+    margin-left: 540px;
+    border-width: 5px;
+    height: 78px;
+    width: 150px;
+    position: absolute;
+    color:rgb(0, 183, 255) ; ;
+    background-color: whitesmoke;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+
+
+  .footer-container{
+    background-color: #0d1220;
+    padding: 4rem 0 2rem 0;
+  }
+  
+  .footer{
+    width: 80%;
+    height: 22vh;
+    background-color: #0d1220;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+  
+  }
+  
+  .footer-heading h2{
+    margin-bottom: 2rem;
+    
+  
+  }
+  
+  .footer-heading a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  .footer-heading a:hover{
+    color: #a89897;
+    transition: 0.3s ease-out;
+  
+  }
+  
+  .footer-email-form h2{
+    margin-bottom: 2rem;
+    
+  }
+  
+  
+  #footer-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    
+  }
+  
+  #footer-email::placeholder{
+    color: #b1b1b1;
+    
+  }
+  
+  #footer-email-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #a89897;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    
+  }
+  #footer-email-btn:hover{
+    cursor: pointer;
+    background-color: #337AF1;
+    transition: all 0.4s ease-out;
+  }
+  
+  @media screen and (max-width: 1150px){
+    .footer{
+        height: 50vh;
+  
+    }
+    .footer-email-form{
+        margin-top: 4rem;
+    }
+  }
+  @media screen and (max-width: 820px){
+    .footer{
+        padding-top: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 720px){
+    .footer-3{
+        display: none;
+    }
+    .footer-email-form{
+        margin-top: 4rem;
+    }
+  }
+
+
+  #container, #popup{
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+#pag{
+    width: 600px;
+    height: 1200px;
+}
+#popup{
+    margin-top: 600px;
+    background-color: grey
+}
